@@ -26,4 +26,7 @@ public class Book {
    @Column(nullable = false)
     private String author;
 
+    public long getId() {
+        return id;
+    }
 }
